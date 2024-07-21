@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const EmailFooter = () => {
   return (
-    <footer className="w-full bg-subtle">
+    <footer className="w-full bg-zinc-100">
       <div className="px-12 py-8">
         <div className="flex justify-center gap-[33px]">
           <a

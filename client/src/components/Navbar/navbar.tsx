@@ -1,34 +1,25 @@
-const EmailHeader = () => {
+import Image from "next/image";
+
+const Navbar = () => {
   return (
-    <header className="flex h-[122px] items-center justify-center bg-subtle">
-      <div className="flex items-center gap-[8px] md:gap-[10px]">
-        <div
-          className="grid grid-cols-2 gap-[2px]"
-          data-testid="dots-container"
-        >
-          <div
-            className="h-[8px] w-[8px] rounded-full bg-primary"
-            data-testid="dot"
-          ></div>
-          <div
-            className="h-[8px] w-[8px] rounded-full bg-primary"
-            data-testid="dot"
-          ></div>
-          <div
-            className="h-[8px] w-[8px] rounded-full bg-primary"
-            data-testid="dot"
-          ></div>
-          <div
-            className="h-[8px] w-[8px] rounded-full bg-primary"
-            data-testid="dot"
-          ></div>
+    <div className="renewal-navbar box-border flex h-[90px] w-full max-w-full shrink-0 flex-row items-center justify-center overflow-hidden bg-zinc-100 px-5 py-[39.5px] text-left text-[24px] leading-normal tracking-normal text-[#121A26] md:h-[108px]">
+      <div className="renewal-navbar-brand flex flex-row items-start justify-start gap-[10px]">
+        <div className="renewal-navbar-logo flex flex-col items-start justify-start px-0 pb-0 pt-[5.5px]">
+          <Image
+            className="relative h-[18px] w-[18px]"
+            loading="lazy"
+            alt=""
+            src="/images/boiler-logo.svg"
+            width={500}
+            height={500}
+          />
         </div>
-        <span className="text-2xl font-semibold text-default">
+        <a className="renewal-navbar-brand-text relative text-[24px] font-semibold text-black no-underline">
           Boilerplate.
-        </span>
+        </a>
       </div>
-    </header>
+    </div>
   );
 };
 
-export default EmailHeader;
+export default Navbar;
