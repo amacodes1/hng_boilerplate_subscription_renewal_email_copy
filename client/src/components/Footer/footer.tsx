@@ -48,7 +48,7 @@ const EmailFooter = () => {
             </span>
           </p>
           <div className="w-full max-w-lg">
-            <hr className="w-full border-t-2 border-dashed border-default text-gray-700" />
+            <hr className="w-full border-t-2 border-dashed border-default text-gray-800" />
           </div>
           <div className="mt-10">
             <p className="text-sm leading-[20px]">
