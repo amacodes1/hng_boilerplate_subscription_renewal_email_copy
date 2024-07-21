@@ -40,7 +40,7 @@ const EmailFooter = () => {
             <LucideLinkedin size={24} />
           </a>
         </div>
-        <div className="mt-16 flex flex-col items-center gap-[30px] px-8">
+        <div className="mt-16 flex flex-col items-center text-black gap-[30px] px-8">
           <p className="text-sm leading-[16.94px]">
             Thank you for choosing Boilerplate.com. Need help?{" "}
             <span className="text-sm font-semibold underline">
